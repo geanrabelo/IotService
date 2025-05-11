@@ -2,8 +2,8 @@ package com.br.IotService.usecases.impl;
 
 import com.br.IotService.core.domain.Alert;
 import com.br.IotService.core.exceptions.AlertNotFound;
-import com.br.IotService.infrastructure.dto.AlertEntityToDomain;
-import com.br.IotService.infrastructure.dto.AlertToEntity;
+import com.br.IotService.infrastructure.dto.alert.AlertEntityToDomain;
+import com.br.IotService.infrastructure.dto.alert.AlertToEntity;
 import com.br.IotService.infrastructure.entity.AlertEntity;
 import com.br.IotService.infrastructure.repositories.AlertEntityRepository;
 import com.br.IotService.usecases.AlertUsecases;

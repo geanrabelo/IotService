@@ -1,6 +1,7 @@
-package com.br.IotService.infrastructure.dto;
+package com.br.IotService.infrastructure.dto.event;
 
 import com.br.IotService.core.domain.Event;
+import com.br.IotService.infrastructure.dto.device.DeviceEntityToDomain;
 import com.br.IotService.infrastructure.entity.EventEntity;
 
 public record EventEntityToDomain(EventEntity eventEntity) {

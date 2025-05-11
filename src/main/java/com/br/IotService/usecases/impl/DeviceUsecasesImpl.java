@@ -2,8 +2,8 @@ package com.br.IotService.usecases.impl;
 
 import com.br.IotService.core.domain.Device;
 import com.br.IotService.core.exceptions.DeviceNotFound;
-import com.br.IotService.infrastructure.dto.DeviceEntityToDomain;
-import com.br.IotService.infrastructure.dto.DeviceToEntity;
+import com.br.IotService.infrastructure.dto.device.DeviceEntityToDomain;
+import com.br.IotService.infrastructure.dto.device.DeviceToEntity;
 import com.br.IotService.infrastructure.entity.DeviceEntity;
 import com.br.IotService.infrastructure.repositories.DeviceEntityRepository;
 import com.br.IotService.usecases.DeviceUsecases;

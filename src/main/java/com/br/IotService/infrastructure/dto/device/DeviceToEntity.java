@@ -1,4 +1,4 @@
-package com.br.IotService.infrastructure.dto;
+package com.br.IotService.infrastructure.dto.device;
 
 import com.br.IotService.core.domain.Device;
 import com.br.IotService.infrastructure.entity.DeviceEntity;

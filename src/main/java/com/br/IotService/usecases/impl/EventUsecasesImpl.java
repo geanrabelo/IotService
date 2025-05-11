@@ -2,8 +2,8 @@ package com.br.IotService.usecases.impl;
 
 import com.br.IotService.core.domain.Event;
 import com.br.IotService.core.exceptions.EventNotFound;
-import com.br.IotService.infrastructure.dto.EventEntityToDomain;
-import com.br.IotService.infrastructure.dto.EventToEntity;
+import com.br.IotService.infrastructure.dto.event.EventEntityToDomain;
+import com.br.IotService.infrastructure.dto.event.EventToEntity;
 import com.br.IotService.infrastructure.entity.EventEntity;
 import com.br.IotService.infrastructure.repositories.EventEntityRepository;
 import com.br.IotService.usecases.EventUsecases;

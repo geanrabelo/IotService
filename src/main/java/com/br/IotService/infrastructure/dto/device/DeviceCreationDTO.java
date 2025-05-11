@@ -1,4 +1,4 @@
-package com.br.IotService.infrastructure.dto;
+package com.br.IotService.infrastructure.dto.device;
 
 import com.br.IotService.core.enums.Status;
 import com.br.IotService.core.enums.Type;

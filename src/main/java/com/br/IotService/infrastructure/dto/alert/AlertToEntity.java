@@ -1,6 +1,7 @@
-package com.br.IotService.infrastructure.dto;
+package com.br.IotService.infrastructure.dto.alert;
 
 import com.br.IotService.core.domain.Alert;
+import com.br.IotService.infrastructure.dto.device.DeviceToEntity;
 import com.br.IotService.infrastructure.entity.AlertEntity;
 
 public record AlertToEntity(Alert alert) {
