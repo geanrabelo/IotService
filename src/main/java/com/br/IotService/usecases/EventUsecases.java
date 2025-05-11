@@ -7,7 +7,7 @@ import java.util.UUID;
 
 public interface EventUsecases {
 
-    Event createEvent(Event device);
+    Event createEvent(Event event);
 
     Event findById(UUID id);
 
