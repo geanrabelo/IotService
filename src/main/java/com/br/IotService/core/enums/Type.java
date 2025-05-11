@@ -1,4 +1,4 @@
-package com.br.IotService.infrastructure.enums;
+package com.br.IotService.core.enums;
 
 public enum Type {
     ONLINE,
