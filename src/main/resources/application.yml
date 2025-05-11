@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: IotService
+  datasource:
+    url: jdbc:postgresql://localhost:5433/iot
+    username: postgres
+    password: postgres
+    driverClass: org.postgresql.Driver
