@@ -1,6 +1,5 @@
 package com.br.IotService.infrastructure.entity;
 
-import com.br.IotService.core.domain.Device;
 import com.br.IotService.core.enums.EventType;
 import jakarta.persistence.*;
 import lombok.*;
@@ -21,7 +20,6 @@ public class EventEntity {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column(name = "deviceId")
     @OneToOne
     private DeviceEntity deviceEntity;
 
