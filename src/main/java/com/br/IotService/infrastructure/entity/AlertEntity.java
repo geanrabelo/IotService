@@ -21,6 +21,7 @@ public class AlertEntity {
     private UUID id;
 
     @OneToOne
+    @JoinColumn(name = "device_id")
     private DeviceEntity deviceEntity;
 
     private LocalDateTime timestamp;

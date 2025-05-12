@@ -9,6 +9,7 @@ public class Event {
 
     private UUID id;
 
+
     private Device device;
 
     private LocalDateTime timestamp;
