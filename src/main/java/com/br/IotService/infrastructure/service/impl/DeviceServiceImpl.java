@@ -28,6 +28,7 @@ public class DeviceServiceImpl implements DeviceService {
                 .status(deviceCreationDTO.status())
                 .location(deviceCreationDTO.location())
                 .build();
+        deviceUsecases.createDevice(device);
         return "Device registered successfully";
     }
 

@@ -30,6 +30,7 @@ public class AlertServiceImpl implements AlertService {
                 .severity(alertCreationDTO.severity())
                 .description(alertCreationDTO.description())
                 .build();
+        alertUsecases.createAlert(alert);
         return "Alert registered successfully";
     }
 

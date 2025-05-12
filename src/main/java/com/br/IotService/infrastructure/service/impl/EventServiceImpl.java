@@ -30,6 +30,7 @@ public class EventServiceImpl implements EventService {
                 .eventType(eventCreationDTO.eventType())
                 .value(eventCreationDTO.value())
                 .build();
+        eventUsecases.createEvent(event);
         return "Event registered successfully";
     }
 
